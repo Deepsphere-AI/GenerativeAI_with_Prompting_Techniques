@@ -37,7 +37,7 @@ def features():
                         # st.write("### ")
                         st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Select the Programming Language</span></p>", unsafe_allow_html=True)
                     with col2:
-                        programming_languages = ["Select","JavaScript","Python","Java","C#","PHP","C++","Ruby","Swift","Go (Golang)","TypeScript"]
+                        programming_languages = ["Select","JavaScript","Python","Java","C#","PHP","C++","Ruby","SQL","Go (Golang)","TypeScript"]
                         vAR_code_lang=st.selectbox("",programming_languages)
                         if vAR_code_lang != "Select":
                             with col1:
